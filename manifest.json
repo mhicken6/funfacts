@@ -10,4 +10,9 @@
 "chrome_url_overrides" : {
     "newtab": "index.html"
   }
+   "content_scripts": [
+  {
+    "js": ["script.js"]
+  }
+]
 }
